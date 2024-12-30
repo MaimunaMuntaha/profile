@@ -13161,7 +13161,7 @@ textarea.form-control-lg {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 60.5%;
 }
 
 html.sr .load-hidden {
@@ -13222,26 +13222,26 @@ a:hover {
 }
 
 .dark-blue-text {
-  color: #272341 !important;
+  color: #5b045b !important;
 }
 
 .text-color-main {
-  color: #00cdac;
-  -webkit-text-fill-color: #00cdac;
+  color: #f1aaf1;
+  -webkit-text-fill-color: #f1aaf1;
 }
 
 @supports (background-clip: text) {
   .text-color-main {
     -webkit-text-fill-color: transparent;
     color: #0000;
-    background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+    background-image: linear-gradient(135deg, #02aab0 0%, #f1aaf1 100%);
     -webkit-background-clip: text;
   }
 }
 
 @media (width <= 37.5em) {
   .text-color-main {
-    -webkit-text-fill-color: #00cdac;
+    -webkit-text-fill-color: #f1aaf1;
     background-image: none;
   }
 }
@@ -13273,26 +13273,26 @@ a:hover {
 }
 
 .cta-btn--hero {
-  color: #00cdac;
-  -webkit-text-fill-color: #00cdac;
+  color: #f1aaf1;
+  -webkit-text-fill-color: #f1aaf1;
   -webkit-border-image-slice: 1;
   border-style: solid;
   border-width: 2px;
-  border-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%) 1;
+  border-image: linear-gradient(135deg, #02aab0 0%, #f1aaf1 100%) 1;
 }
 
 @supports (background-clip: text) {
   .cta-btn--hero {
     -webkit-text-fill-color: transparent;
     color: #0000;
-    background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+    background-image: linear-gradient(135deg, #02aab0 0%, #f1aaf1 100%);
     -webkit-background-clip: text;
   }
 }
 
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
   .cta-btn--hero {
-    color: #00cdac !important;
+    color: #f1aaf1 !important;
   }
 
   .cta-btn--hero:hover {
@@ -13302,14 +13302,14 @@ a:hover {
 
 @media (width <= 37.5em) {
   .cta-btn--hero {
-    -webkit-text-fill-color: #00cdac;
+    -webkit-text-fill-color: #f1aaf1;
     background-image: none;
-    border: 2px solid #00cdac;
+    border: 2px solid #f1aaf1;
   }
 }
 
 .cta-btn--hero:after {
-  background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  background-image: linear-gradient(135deg, #02aab0 0%, #f1aaf1 100%);
 }
 
 @media (width <= 37.5em) {
@@ -13325,7 +13325,7 @@ a:hover {
 
 @media (width <= 37.5em) {
   .cta-btn--hero:hover {
-    -webkit-text-fill-color: #00cdac;
+    -webkit-text-fill-color: #f1aaf1;
   }
 }
 
@@ -13343,7 +13343,7 @@ a:hover {
 }
 
 .cta-btn--resume:hover {
-  color: #00cdac;
+  color: #f1aaf1;
   text-decoration: none;
 }
 
@@ -13356,8 +13356,8 @@ a:hover {
 }
 
 .footer {
-  color: #fff;
-  background-color: #333;
+  color: #014e63;
+  background-color: #c2dbe2;
   padding: 4.8rem 0;
 }
 
@@ -13374,7 +13374,7 @@ a:hover {
 
 .footer__text a {
   color: gray;
-  background-color: #333;
+  background-color: #c2dbe2;
   font-size: 1.3rem;
   transition: all .4s;
   display: inline-block;
@@ -13382,12 +13382,13 @@ a:hover {
 
 .footer__text a:hover, .footer__text a:active {
   color: #02aab0;
+  -webkit-box-shadow: 0 1.5rem 4rem #9123db26;
   box-shadow: 0 1.5rem 4rem #00000026;
 }
 
 .footer hr {
   border: 0;
-  border-top: 2px solid gray;
+  border-top: 2px solid #90b7bd;
   width: 50%;
   margin: 1rem auto;
 }
@@ -13439,8 +13440,8 @@ section {
 #about {
   color: #fff;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  background-color: #ff69b4;
-  background-image: linear-gradient(135deg, #ff69b4 0%, #9370db 100%);
+  background-color: #ca5c93;
+  background-image: linear-gradient(135deg, #ca5c93 0%, #1b665d 100%);
   border-top: 0;
   height: 100%;
   padding-bottom: 10%;
@@ -13508,7 +13509,7 @@ section {
 }
 
 #about .about-wrapper__info-text--important {
-  background: #906cda;
+  background: #1a6259;
   margin: .3rem 0;
   padding: 0 .3rem;
   font-style: italic;
@@ -13529,7 +13530,7 @@ section {
 #contact {
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   color: #fff;
-  background-image: linear-gradient(135deg, #ff69b4 0%, #9370db 100%);
+  background-image: linear-gradient(135deg, #ca5c93 0%, #1b665d 100%);
   margin-top: -10rem;
   margin-bottom: -1px;
   padding: 15rem 0 10rem;
@@ -13564,9 +13565,9 @@ section {
 }
 
 #hero {
-  color: #fff;
+  color: #5a036a;
   z-index: -1;
-  background: #ffb6c1;
+  background: #fff5ee;
   border-bottom: 0;
   align-items: center;
   height: 100vh;
@@ -13638,7 +13639,7 @@ section {
 }
 
 #projects {
-  color: #272341;
+  color: #5b045b;
   background-color: #fff;
   margin-top: -10rem;
   padding-top: 15rem;
@@ -13700,7 +13701,7 @@ section {
 }
 
 #projects .project-wrapper__text p > a {
-  color: #9370db;
+  color: #1b665d;
 }
 
 #projects .project-wrapper__image {
